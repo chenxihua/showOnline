@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>首页</title>
+    <link rel="stylesheet" href="/js/layui/css/layui.css">
+    <link rel="stylesheet" href="/js/css/table.css">
+
+</head>
+<body>
+
+<div class="tablelist">
+    <div class="searchline">
+        <div class="titleright">
+            <div class="searchusertitle">
+                <span class="labelfont">用户名:</span>
+                <input class="searchinput usernameinput">
+            </div>
+            <div class="searchIPtitle">
+                <span class="labelfont">IP:</span>
+                <input class="searchinput ipinput">
+            </div>
+            <div class="searchIPtitle"><button class="searchbtn">查询</button></div>
+        </div>
+
+    </div>
+    <div>
+        <table id="list" lay-filter="test"></table>
+    </div>
+</div>
+
+<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+<script src="/js/js/jquery-3.1.1.min.js"></script>
+<!-- 包括所有已编译的插件 -->
+<script src="/js/layui/layui.js"></script>
+<script src="/js/js/table.js"></script>
+
+</body>
+</html>
