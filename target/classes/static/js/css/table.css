@@ -1,0 +1,31 @@
+.tablelist .searchline {
+    height: 60px;
+    width: 100%;
+}
+.tablelist .searchusertitle {
+    margin: 25px;
+    height: 25px;
+    width: 250px;
+    position: relative;
+    display: inline-block;
+}
+.tablelist .labelfont {
+    font-size: 16px;
+}
+.tablelist .searchinput {
+    height: 20px;
+}
+.tablelist .searchIPtitle {
+    display: inline-block;
+    margin-right: 25px;
+}
+.tablelist .titleright {
+    width: 700px;
+    position: absolute;
+    right: 0;
+}
+
+.tablelist .searchbtn {
+    height: 25px;
+    width: 65px;
+}
